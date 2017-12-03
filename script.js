@@ -19,8 +19,16 @@ window.onload = function () {
       sec = '0' + sec;
     }
     
-    var clockFace = hour + ':' + min + ':' + sec;
+    var clockFace = hour + 'h ' + min + 'm ' + sec + 's';
     var hexa = '#' + hour + min + sec;
+    
+      if (sec == 10) {
+      hexa = '#' + hour+ min + 'ff';
+    } else if (sec == 20) {
+      hexa = '#' + 'aa' + min + sec;
+    } else if (sec == 30) {
+      hexa = '#' + hour + 'bb' + sec;
+    }
     
     document.getElementById('clock').innerHTML = clockFace;
     document.body.style.backgroundColor = hexa;

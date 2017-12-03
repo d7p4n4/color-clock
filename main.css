@@ -54,9 +54,16 @@ table {
   top: calc(50% - 2rem);
   font-family: 'Dancing Script';
   font-size: 4rem;
-  color: red;
+  color: silver;
 }
 
 html, body {
   height: 100%;
+}
+
+@media (min-width: 1024px) {
+  #clock {
+    font-size: 8rem;
+  }
+
 }
