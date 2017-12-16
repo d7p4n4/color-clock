@@ -3,8 +3,8 @@ The  three numbers on the screen are refer to the three parts of a clock. (first
 (I set 3 big color change of the background-color in every 10, 20, 30 seconds, just because the color change will be easily visible.)
 
 # Built with:
-Html5
-CSS
+Html5,
+CSS,
 javaScript
 
 It was created by JSBin and my desktop editor, brackets collaterally.
